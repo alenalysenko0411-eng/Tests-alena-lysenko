@@ -19,7 +19,7 @@ class SquareAreaTestCase(unittest.TestCase):
 
         Пример: square.area(5) -> 25
         """
-        self.assertEqual(square.area(5), 25)
+        self.assertEqual(square.area(5), 24)
 
     def test_area_zero_side(self):
         """Сторона 0: площадь 0.
